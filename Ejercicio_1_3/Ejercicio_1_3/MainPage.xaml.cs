@@ -17,10 +17,14 @@ namespace Ejercicio_1_3
             InitializeComponent();
         }
 
-        private async void Agregar_Clicked(object sender, EventArgs e)
+        async private void Agregar_Clicked(object sender, EventArgs e)
         {
-           await Navigation.PushAsync( new Views.CrearPersonas());
-            
+
+            //cp: Content Page
+            var cpPersona = new Views.CrearPersonas();
+
+
+            await Navigation.PushModalAsync(cpPersona);
         }
 
     }
