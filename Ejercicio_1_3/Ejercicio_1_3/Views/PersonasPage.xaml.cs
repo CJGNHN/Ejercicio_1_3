@@ -33,7 +33,7 @@ namespace Ejercicio_1_3.Views
         private async void ListaPersonas_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             Models.Personas items = (Models.Personas)e.Item;
-            var newpage = new Views.CrearPersonas();
+            var newpage = new Views.PanelPersonas();
             newpage.BindingContext = items;
             await Navigation.PushModalAsync(newpage);
         }

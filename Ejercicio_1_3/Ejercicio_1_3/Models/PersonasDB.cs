@@ -17,7 +17,7 @@ namespace Ejercicio_1_3.Models
         {
             
         }
-        //CONSTRUCTOR CON PAREMTROS
+        //CONSTRUCTOR CON PARAMETROS
         public PersonasDB(String pathbasedatos)
         {
             db = new SQLiteAsyncConnection(pathbasedatos);
@@ -52,8 +52,9 @@ namespace Ejercicio_1_3.Models
             }
         }
 
+
         //ELIMINAR EMPLEADO ESPECIFICO
-        public Task<Int32> ElimininarPersonas(Personas perso)
+        public Task<Int32> EliminarPersonas(Personas perso)
         {
             return db.DeleteAsync(perso);
         }

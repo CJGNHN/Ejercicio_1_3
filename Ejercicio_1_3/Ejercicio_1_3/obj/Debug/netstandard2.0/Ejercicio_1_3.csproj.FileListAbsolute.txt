@@ -15,3 +15,4 @@ C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\obj\Debu
 C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\obj\Debug\netstandard2.0\Views\PersonasPage.xaml.g.cs
 C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\obj\Debug\netstandard2.0\Views\CrearPersonas.xaml.g.cs
 C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\obj\Debug\netstandard2.0\Ejercicio_1_3.csproj.AssemblyReference.cache
+C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\obj\Debug\netstandard2.0\Views\PanelPersonas.xaml.g.cs

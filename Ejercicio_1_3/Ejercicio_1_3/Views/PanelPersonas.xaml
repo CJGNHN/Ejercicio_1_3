@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio_1_3.Views.PanelPersonas">
+    <Grid Padding="20" RowSpacing="20">
+
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Ejercicio 1.3" HorizontalTextAlignment="Center" TextColor="White" FontSize="24"/>
+            </Frame>
+
+            <Label x:Name="tcodigo" Text="{Binding codigo}" VerticalOptions="Center" />
+            <Entry x:Name="tnombre" Keyboard="Text" Text="{Binding nombres}" Placeholder="Ingrese el Nombre"  VerticalOptions="Center" />
+            <Entry x:Name="tapellido" Keyboard="Text" Text="{Binding apellidos}" Placeholder="Ingrese el Apellido" VerticalOptions="Center" />
+            <Entry x:Name="tedad" Keyboard="Numeric" Text="{Binding edades}" Placeholder="Ingrese la Edad" VerticalOptions="Center" />
+            <Entry x:Name="tcorreo" Keyboard="Text" Text="{Binding correos}" Placeholder="Ingrese el Correo Electronico" VerticalOptions="Center" />
+            <Entry x:Name="tdireccion" Keyboard="Text" Text="{Binding direccion}" Placeholder="Ingrese la direccion" VerticalOptions="Center" />
+
+            <Grid ColumnDefinitions="*,*">
+                <Button x:Name="btnActualizar" Text="Actualizar" BackgroundColor="#DFD96F" Font="Large" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="btnActualizar_Clicked"/>
+                <Button Grid.Column="1"  x:Name="btnEliminar" Text="Eliminar" BackgroundColor="#DFD96F" Font="Large" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="btnEliminar_Clicked"/>
+            </Grid>
+            
+
+        </StackLayout>
+    </Grid>
+
+</ContentPage>

@@ -10,14 +10,14 @@
             </Frame>
 
 
-            <Entry x:Name="tnombre" Keyboard="Text" Text="{Binding nombres}" Placeholder="Ingrese el Nombre"  VerticalOptions="Center" />
-            <Entry x:Name="tapellido" Keyboard="Text" Text="{Binding apellidos}" Placeholder="Ingrese el Apellido" VerticalOptions="Center" />
-            <Entry x:Name="tedad" Keyboard="Numeric" Text="{Binding edades}" Placeholder="Ingrese la Edad" VerticalOptions="Center" />
-            <Entry x:Name="tcorreo" Keyboard="Text" Text="{Binding correos}" Placeholder="Ingrese el Correo Electronico" VerticalOptions="Center" />
-            <Entry x:Name="tdireccion" Keyboard="Text" Text="{Binding direccion}" Placeholder="Ingrese la direccion" VerticalOptions="Center" />
+            <Entry x:Name="tnombre" Keyboard="Text" Placeholder="Ingrese el Nombre"  VerticalOptions="Center" />
+            <Entry x:Name="tapellido" Keyboard="Text" Placeholder="Ingrese el Apellido" VerticalOptions="Center" />
+            <Entry x:Name="tedad" Keyboard="Numeric" Placeholder="Ingrese la Edad" VerticalOptions="Center" />
+            <Entry x:Name="tcorreo" Keyboard="Text" Placeholder="Ingrese el Correo Electronico" VerticalOptions="Center" />
+            <Entry x:Name="tdireccion" Keyboard="Text" Placeholder="Ingrese la direccion" VerticalOptions="Center" />
 
             <Button x:Name="btnGuardar" Text="Guardar" BackgroundColor="#DFD96F" Font="Large" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="btnGuardar_Clicked"/>
-
+            
         </StackLayout>
     </Grid>
 

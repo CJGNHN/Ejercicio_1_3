@@ -11,17 +11,18 @@ using Xamarin.Forms.Xaml;
 namespace Ejercicio_1_3.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CrearPersonas : ContentPage
+    public partial class PanelPersonas : ContentPage
     {
-        public CrearPersonas()
+        public PanelPersonas()
         {
             InitializeComponent();
         }
 
-        private async void btnGuardar_Clicked(object sender, EventArgs e)
+        async private void btnActualizar_Clicked(object sender, EventArgs e)
         {
             var perso = new Personas
             {
+                codigo = Convert.ToInt32(tcodigo.Text),
                 nombres = tnombre.Text,
                 apellidos = tapellido.Text,
                 edades = Convert.ToInt32(tedad.Text),
@@ -32,12 +33,18 @@ namespace Ejercicio_1_3.Views
             var resultado = await App.BaseDatos.GuardarPersonas(perso);
 
             if (resultado != 0)
+
+                await DisplayAlert("Mensaje", "Persona Actualizada con exito", "OK");
            
-            await DisplayAlert("Mensaje", "Persona ingresada con exito", "OK");
-                   
             else
-                await DisplayAlert ("Mensaje", "Error", "OK");
+                await DisplayAlert("Mensaje", "Error", "OK");
 
         }
+    
+
+    async private void btnEliminar_Clicked(object sender, EventArgs e)
+    {
+
     }
+  }
 }
