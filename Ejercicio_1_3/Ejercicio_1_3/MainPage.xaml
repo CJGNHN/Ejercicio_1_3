@@ -9,9 +9,10 @@
                 <Label Text="Ejercicio 1.3" HorizontalTextAlignment="Center" TextColor="White" FontSize="24"/>
             </Frame>
 
-            <Label Text="Elije una opcion del menu"  VerticalOptions="Center" />
+            <Label Text="Elije una opcion del menu"  Padding="24" FontSize="24" VerticalOptions="Center" />
 
-            <Button x:Name="btnEnviar" Text="Agregar Persona" BackgroundColor="#DFD96F" Font="Large" BorderWidth="1" HorizontalOptions="Center" VerticalOptions="Center" Clicked="Agregar_Clicked"/>
+            <Button x:Name="btnAgregar" Text="Agregar Persona" BackgroundColor="#DFD96F" Font="Large" BorderWidth="1" HorizontalOptions="Center" VerticalOptions="Center" Clicked="Agregar_Clicked"/>
+            <Button x:Name="btnlista" Text="Listado Personas" BackgroundColor="#DFD96F" Font="Large" BorderWidth="1" HorizontalOptions="Center" VerticalOptions="Center" Clicked="btnlista_Clicked"/>
 
         </StackLayout>
     </Grid>

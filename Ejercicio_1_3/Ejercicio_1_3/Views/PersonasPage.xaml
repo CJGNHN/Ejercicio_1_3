@@ -10,7 +10,13 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <ListView x:Name="ListaPersonas" />
+            <ListView x:Name="ListaPersonas" ItemTapped="ListaPersonas_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding nombres}" Detail="{Binding apellidos}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

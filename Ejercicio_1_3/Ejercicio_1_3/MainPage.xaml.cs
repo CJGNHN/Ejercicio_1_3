@@ -27,6 +27,13 @@ namespace Ejercicio_1_3
             await Navigation.PushModalAsync(cpPersona);
         }
 
+        private async void btnlista_Clicked(object sender, EventArgs e)
+        {
+            var cpPagePersona = new Views.PersonasPage();
+
+
+            await Navigation.PushModalAsync(cpPagePersona);
+        }
     }
 
     }

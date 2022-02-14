@@ -18,8 +18,6 @@ namespace Ejercicio_1_3.Models
 
         public int edades { get; set; }
 
-        public DateTime fecha_nac { get; set; }
-
         [MaxLength(100)]
         public String correos { get; set; }
 

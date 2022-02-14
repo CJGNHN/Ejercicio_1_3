@@ -39,7 +39,7 @@ namespace Ejercicio_1_3.Models
             return db.Table<Personas>().Where(i => i.codigo == pcodigo).FirstOrDefaultAsync();
         }
 
-        //BUSCAR EMPLEADO POR CODIGO
+        //Guardar o Actualizar empleados
         public Task<Int32> GuardarPersonas(Personas perso)
         {
             if (perso.codigo != 0)

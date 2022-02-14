@@ -29,6 +29,14 @@ namespace Ejercicio_1_3.Views
 
             ListaPersonas.ItemsSource = await App.BaseDatos.ListaPersonas();
         }
+
+        private async void ListaPersonas_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            Models.Personas items = (Models.Personas)e.Item;
+            var newpage = new Views.CrearPersonas();
+            newpage.BindingContext = items;
+            await Navigation.PushModalAsync(newpage);
+        }
     }
 
 }
