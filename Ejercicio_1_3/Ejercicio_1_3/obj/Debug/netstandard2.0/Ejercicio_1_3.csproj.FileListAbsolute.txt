@@ -1,0 +1,16 @@
+C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\bin\Debug\netstandard2.0\Ejercicio_1_3.deps.json
+C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\bin\Debug\netstandard2.0\Ejercicio_1_3.dll
+C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\bin\Debug\netstandard2.0\ref\Ejercicio_1_3.dll
+C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\bin\Debug\netstandard2.0\Ejercicio_1_3.pdb
+C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\obj\Debug\netstandard2.0\Ejercicio_1_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\obj\Debug\netstandard2.0\Ejercicio_1_3.AssemblyInfoInputs.cache
+C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\obj\Debug\netstandard2.0\Ejercicio_1_3.AssemblyInfo.cs
+C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\obj\Debug\netstandard2.0\Ejercicio_1_3.csproj.CoreCompileInputs.cache
+C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\obj\Debug\netstandard2.0\Ejercicio_1_3.dll
+C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\obj\Debug\netstandard2.0\ref\Ejercicio_1_3.dll
+C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\obj\Debug\netstandard2.0\Ejercicio_1_3.pdb
+C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\obj\Debug\netstandard2.0\Views\PersonasPage.xaml.g.cs
+C:\Users\SOPORTE\source\repos\Ejercicio_1_3\Ejercicio_1_3\Ejercicio_1_3\obj\Debug\netstandard2.0\Views\CrearPersonas.xaml.g.cs

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio_1_3.Views.CrearPersonas">
+    <Grid Padding="20" RowSpacing="20">
+
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Ejercicio 1.3" HorizontalTextAlignment="Center" TextColor="White" FontSize="24"/>
+            </Frame>
+
+
+            <Entry x:Name="tnombre" Keyboard="Text" Placeholder="Ingrese el Nombre"  VerticalOptions="Center" />
+            <Entry x:Name="tapellido" Keyboard="Text" Placeholder="Ingrese el Apellido" VerticalOptions="Center" />
+            <Entry x:Name="tedad" Keyboard="Numeric" Placeholder="Ingrese la Edad" VerticalOptions="Center" />
+            <Entry x:Name="tcorreo" Keyboard="Text" Placeholder="Ingrese el Correo Electronico" VerticalOptions="Center" />
+            <Entry x:Name="tdireccion" Keyboard="Text" Placeholder="Ingrese la direccion" VerticalOptions="Center" />
+
+            <Button x:Name="btnEnviar" Text="Guardar" BackgroundColor="#DFD96F" Font="Large" BorderWidth="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+
+        </StackLayout>
+    </Grid>
+
+</ContentPage>
